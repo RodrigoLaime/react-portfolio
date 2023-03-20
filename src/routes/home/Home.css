@@ -53,7 +53,7 @@
   height: 2px;
   padding: 0;
   margin: 10px 0;
-  background-color: aqua;
+  background-color: #2acfcf;
 }
 
 .textPresent p {
@@ -73,14 +73,14 @@
   background-position: center;
   /* z-index: 0; */
 }
-.clickMe{
+
+.clickMe {
   z-index: 1;
-  background-color: aqua;;
- /*  background-color: #00FFFF; */
-  border: 2px solid rgba(185, 169, 169, 0);
+  background-color: #041c24;
+  border: 2px solid aqua;
   padding: 10px;
   border-radius: 5px;
-  color: white;
+  color: aqua;
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 10px;
@@ -92,9 +92,18 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: .3s ease;
 }
 
+.two-btn {
+  border: 2px solid white;
+  color: white;
+}
 
+/* .clickMe:active {
+  background-color: aqua;
+}
+ */
 
 @media (min-width: 480px) {
   .container-home h1 {
@@ -104,7 +113,8 @@
   .textPresent p {
     font-size: 1.1rem;
   }
-  .clickMe{
+
+  .clickMe {
     width: 300px;
     margin-left: 20%;
     position: relative;
@@ -117,6 +127,7 @@
     font-size: 3.5rem;
   }
 }
+
 @media (min-width: 675px) {
   /*  .container-home {
     background: rgb(4, 28, 36);
@@ -138,13 +149,15 @@
 }
 
 @media (min-width: 775px) {
-  
+
   .container-home {
     padding: 60px;
   }
+
   .container-home h4 {
     font-size: 2rem;
   }
+
   .container-home h1 {
     font-size: 4rem;
   }
@@ -154,7 +167,8 @@
   }
 
 }
-@media (min-width: 1110px){
+
+@media (min-width: 1110px) {
   .container-home h1 {
     font-size: 4.8rem;
   }

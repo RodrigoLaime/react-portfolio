@@ -93,10 +93,10 @@ const Menu = () => {
               </div>
             ))}
             <li className='follow'>
-              <a href=""><i className="fa-solid fa-envelope"></i></a>
-              <a href=""><i className="fa-brands fa-twitter"></i></a>
-              <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
-              <a href=""><i className="fa-brands fa-github"></i></a>
+              <a href="#"><i className="fa-solid fa-envelope"></i></a>
+              <a href="#"><i className="fa-brands fa-twitter"></i></a>
+              <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i className="fa-brands fa-github"></i></a>
             </li>
           </ul>
         </article>
