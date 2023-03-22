@@ -1,13 +1,20 @@
+/* import logo1 from '../../assets/batata (1).png' 
+import logo2 from '../../assets/clon-google1.png'
+import logo3 from '../../assets/cardshoping.png'
+*/
+/* https://www.youtube.com/watch?v=gzXyRa7jwk4 */
+import styled from "styled-components";
+
+const imgs = require.context('../../assets', true)
 export const trabajos = [];
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'Proyect: Batata Bit',
   tools: 'Used Tools: HTML5 and CSS',
   key: 1,
-  github: 'https://www.google.com/search?q=traductor&rlz=1C1ALOY_esAR1043AR1043&oq=traductor&aqs=chrome..69i57j35i39j0i131i433i512j0i67i131i433j0i512j0i131i433i512j0i512j0i131i433i512j0i433i512j0i131i433i512.3779j0j7&sourceid=chrome&ie=UTF-8',
-  image: 'asdfas',
+  github: '',
+  image: imgs('./batata (1).png'),
   job: 'fasdfasd',
-
 })
 trabajos.push({
   contact: 'Contact me',
@@ -15,16 +22,16 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 2,
   github: 'fdfd',
-  image: 'sdsss',
+  image: imgs('./clon-google1.png'),
   job: 'ffdfd',
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'Proyect: cardshoping',
   tools: 'Used Tools: HTML5 and CSS',
   key: 3,
   github: 'xcv',
-  image: 'bfs',
+  image: imgs('./cars-card.png'),
   job: 'iyl',
 })
 trabajos.push({
@@ -86,6 +93,51 @@ trabajos.push({
   project: 'Proyect: google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 10,
+  github: '5etg',
+  image: 'ther',
+  job: 'vvrr',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'Proyect: google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 11,
+  github: '5etg',
+  image: 'ther',
+  job: 'vvrr',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'Proyect: google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 12,
+  github: '5etg',
+  image: 'ther',
+  job: 'vvrr',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'Proyect: google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 13,
+  github: '5etg',
+  image: 'ther',
+  job: 'vvrr',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'Proyect: google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 14,
+  github: '5etg',
+  image: 'ther',
+  job: 'vvrr',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'Proyect: google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 15,
   github: '5etg',
   image: 'ther',
   job: 'vvrr',
