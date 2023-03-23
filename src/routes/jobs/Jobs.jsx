@@ -2,28 +2,26 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Jobs.css'
 import { trabajos } from './objectJobs'
+import { useRef } from 'react'
 
 const Jobs = () => {
   const navigate = useNavigate();
   const navContact = () => {
     navigate('../contact/Contact.jsx')
   };
-
-  document.addEventListener("DOMContentLoaded", function (eve) {
-    const scrollContainer = document.getElementById('container-center-jobs')
-    const btnMa = document.getElementById('btnMas')
-    const btnMe = document.getElementById('btnMenos')
-    scrollContainer.scrollLeft += eve.deltaY;
-    btnMa.onclick = () => {
-      scrollContainer.scrollLeft += 960;
-      console.log('clicMa')
-    }
-    btnMe.onclick = () => {
-      scrollContainer.scrollLeft -= 960;
-      console.log('clicMe')
-    }
-
-  })
+  const scrollRef = useRef(null);
+  const clickLeft = () => {
+    scrollRef.current.scrollBy({
+      left: -310,
+      behavior: 'smooth'
+    });
+  };
+  const clickRight = () => {
+    scrollRef.current.scrollBy({
+      left: 310,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <div className='div-container-jobs'>
@@ -33,14 +31,20 @@ const Jobs = () => {
           <p>see the files</p>
         </div>
 
-        <div className='container-center-jobs'>
+        <div className='button-container'>
+          <button className='btnMas' onClick={clickLeft}><i className="fa-solid fa-angles-left"></i></button>
+          <button className='btnMenos' onClick={clickRight}><i className="fa-solid fa-angles-right"></i></button>
+        </div>
+        <div className='container-center-jobs'
+          ref={scrollRef}
+        >
           {trabajos.map(data => (
             <section
               className='jobs'
               key={data.key}
             >
 
-              <img src={data.image} alt="" />
+              <img src={data.image} alt="imagen" />
               <h6>{data.project}</h6>
               <h6>{data.tools}</h6>
 
@@ -62,8 +66,7 @@ const Jobs = () => {
           ))}
 
         </div>
-        <button className='btnMas' id='btnMas'>-</button>
-        <button className='btnMenos' id='btnMenos'>+</button>
+
       </section>
     </div>
   )
