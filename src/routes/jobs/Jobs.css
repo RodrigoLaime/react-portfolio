@@ -18,11 +18,13 @@ img {
 }
 
 .container-center-jobs {
-  width: 960px;
-  min-width: 270px;
+/*   width: 960px; */
   padding: 20px;
   display: flex;
+  gap: 20px;
   overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
   /* list-style: none;
   padding: 0;
   display: grid;
@@ -34,28 +36,14 @@ img {
   display: none
 } */
 
-.jobs-title {
-  padding: 20px;
-  text-align: left;
-}
-
-.jobs-title h2 {
-  font-size: 34px;
-  color: #2acfcf;
-  font-family: 'Dosis', sans-serif;
-}
-
-.jobs-title p {
-  font-size: 20px;
-  color: white;
-  font-weight: 700;
-}
 
 .jobs {
+  position: relative;
+  width: 300px;
+  scroll-snap-align: center;
   background: rgb(6, 91, 100);
   background: linear-gradient(300deg, rgba(6, 91, 100, 1) 0%, rgba(42, 207, 207, 0.518) 100%);
   /*  backdrop-filter: blur(20px); */
-  margin: 8px;
   /*  padding: 10px;
   border-radius: 5px;
   text-align: left; */
@@ -73,6 +61,22 @@ img {
   transform: scale(1.1);
 }
 
+.jobs-title {
+  padding: 20px;
+  text-align: left;
+}
+
+.jobs-title h2 {
+  font-size: 34px;
+  color: #2acfcf;
+  font-family: 'Dosis', sans-serif;
+}
+
+.jobs-title p {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
 
 
 .jobs h6 {
