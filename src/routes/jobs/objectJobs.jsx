@@ -13,16 +13,16 @@ const imgs = require.context('../../assets', true)
 export const trabajos = [];
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: Batata Bit',
-  tools: 'Used Tools: HTML5 and CSS',
+  project: 'Batata Bit',
+  tools: 'Used Tools: HTML5 and CSS, desing movil and desktop',
   key: 1,
-  github: '',
   image: imgs('./clon-google2.png'),
+  github: '',
   job: 'fasdfasd',
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 2,
   github: 'fdfd',
@@ -31,7 +31,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: cardshoping',
+  project: 'cardshoping',
   tools: 'Used Tools: HTML5 and CSS',
   key: 3,
   github: 'xcv',
@@ -40,7 +40,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 4,
   github: 'thh',
@@ -49,7 +49,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 5,
   github: 'ggg',
@@ -58,7 +58,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 6,
   github: '5etg',
@@ -67,7 +67,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 7,
   github: '5etg',
@@ -76,7 +76,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 8,
   github: '5etg',
@@ -85,7 +85,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 9,
   github: '5etg',
@@ -94,7 +94,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'Google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 10,
   github: '5etg',
@@ -103,7 +103,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 11,
   github: '5etg',
@@ -112,7 +112,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 12,
   github: '5etg',
@@ -121,7 +121,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 13,
   github: '5etg',
@@ -130,7 +130,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 14,
   github: '5etg',
@@ -139,7 +139,7 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
-  project: 'Proyect: google clone ligth',
+  project: 'google clone ligth',
   tools: 'Used Tools: HTML5 and CSS',
   key: 15,
   github: '5etg',

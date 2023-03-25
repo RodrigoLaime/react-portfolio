@@ -57,20 +57,21 @@ const Jobs = () => {
             >
 
               <img src={data.image} alt="imagen" />
-              <h6>{data.project}</h6>
+              <h6 className='h6-proyect'>{data.project}</h6>
               <h6>{data.tools}</h6>
 
               <div>
                 <a
+                className='iconSee'
+                  href={data.github}
+                ><span>view project</span><i className="fa-regular fa-folder-open"></i></a>
+                <a
                   onClick={navContact}
                   href={data.github}
                 ><i className="fa-brands fa-github"></i></a>
-                <a
+               {/*  <a
                   href={data.github}
-                ><i className="fa-regular fa-folder-open"></i></a>
-                <a
-                  href={data.github}
-                ><i className="fa-regular fa-images"></i></a>
+                ><i className="fa-regular fa-images"></i></a> */}
 
               </div>
 
