@@ -28,8 +28,20 @@ const Jobs = () => {
       <section className='container-jobs'>
         <div className='jobs-title'>
           <h2>NOTEWORTHY PROYECTS</h2>
-          <p>see the files</p>
+          {/* <p>see the files</p> */}
+          <p>Tecnologia implementadas</p>
         </div>
+
+        <ul
+        className='list-tecnology'
+         style={{
+          color:'white',
+          padding: '20px'}}>
+            <li><div><h3>JavaScript</h3><p>Lenguajes favorito de programacion</p></div><p className='p-icon'>+</p></li>
+            <li><div><h3>CSS3</h3><p>Fundamental para el front, estructura</p></div><p className='p-icon'>+</p></li>
+            <li><div><h3>HTML5</h3><p>Fundamental para el front, stylos</p></div><p className='p-icon'>+</p></li>
+            <li><div><h3>React</h3><p>Exelente herramienta y facil de aprender</p></div><p className='p-icon'>+</p></li>
+        </ul>
 
         <div className='button-container'>
           <button className='btnMas' onClick={clickLeft}><i className="fa-solid fa-angles-left"></i></button>

@@ -1,7 +1,11 @@
-/* import logo1 from '../../assets/batata (1).png' 
-import logo2 from '../../assets/clon-google1.png'
-import logo3 from '../../assets/cardshoping.png'
-*/
+/* 
+import logo3 from '../../assets/music.png'
+import logo3 from '../../assets/mylogo.jpg'
+import logo3 from '../../assets/portafolio1.png'
+import logo3 from '../../assets/portafolio2.png'
+import logo3 from '../../assets/stadistica_web.png'
+import logo3 from '../../assets/steps.png'
+import logo3 from '../../assets/tiktok.png' */
 /* https://www.youtube.com/watch?v=gzXyRa7jwk4 */
 import styled from "styled-components";
 
@@ -13,7 +17,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 1,
   github: '',
-  image: imgs('./batata (1).png'),
+  image: imgs('./clon-google2.png'),
   job: 'fasdfasd',
 })
 trabajos.push({
@@ -40,7 +44,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 4,
   github: 'thh',
-  image: 'rrr',
+  image: imgs('./batata (1).png'),
   job: 'ttt',
 })
 trabajos.push({
@@ -49,7 +53,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 5,
   github: 'ggg',
-  image: '76y',
+  image: imgs('./faceboock.png'),
   job: 'hy6',
 })
 trabajos.push({
@@ -58,7 +62,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 6,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./game.png'),
   job: 'vvrr',
 })
 trabajos.push({
@@ -67,7 +71,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 7,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./portafolio1.png'),
   job: 'vvrr',
 })
 trabajos.push({
@@ -76,7 +80,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 8,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./music.png'),
   job: 'vvrr',
 })
 trabajos.push({
@@ -85,7 +89,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 9,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./portafolio2.png'),
   job: 'vvrr',
 })
 trabajos.push({
@@ -94,7 +98,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 10,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./steps.png'),
   job: 'vvrr',
 })
 trabajos.push({
@@ -103,7 +107,7 @@ trabajos.push({
   tools: 'Used Tools: HTML5 and CSS',
   key: 11,
   github: '5etg',
-  image: 'ther',
+  image: imgs('./tiktok.png'),
   job: 'vvrr',
 })
 trabajos.push({

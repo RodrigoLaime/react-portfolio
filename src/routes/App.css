@@ -9,3 +9,12 @@
 .App {
   position: relative;
 }
+
+#root::-webkit-scrollbar{
+  width: 5px;
+  background-color: #041C24;
+}
+#root::-webkit-scrollbar-thumb{
+  background-color: #2acfcf;
+  border-radius: 10px;
+}

@@ -5,6 +5,7 @@
 
 img {
   width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 .container-jobs {
@@ -30,8 +31,17 @@ img {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit,
-      minmax(200px, 1fr)); */
+  minmax(200px, 1fr)); */
   /* scroll-snap-type: inline mandatory; */
+}
+.container-center-jobs::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+  background-color: #041C24;
+}
+.container-center-jobs::-webkit-scrollbar-thumb{
+  background-color: #2acfcf;
+  border-radius: 10px;
 }
 
 .container-center-jobs>* {
@@ -41,21 +51,69 @@ img {
 /* .container-center-jobs::-webkit-scrollbar {
   display: none
 } */
+/* lista de tecnologias usadas */
+.list-tecnology{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 10px;
+}
+.list-tecnology li{
+  background-color: rgba(255, 255, 255, 0.131);
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.list-tecnology div{
+  text-align: right;
+}
+.list-tecnology li div h3{
+  font-size: 1rem;
+  padding: 5px 0;
+}
+.list-tecnology li div p{
+  border-top: 2px solid #2acfcf;
+  font-size: .9rem;
+  padding: 5px 0;
+}
+.list-tecnology li .p-icon{
+  /* width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #2acfcf;
+}
+
 
 .button-container {
   display: flex;
+  justify-content: right;
   padding: 0 20px;
+  margin-top: 30px;
   gap: 10px;
 }
 
 .btnMas,
 .btnMenos {
-  padding: 10px 20px;
+  margin-right: 20px;
   border: none;
-  background-color: #2acfcf;
-  border-radius: 5px;
+  background-color: #2acfcf00;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.4rem;
+  transition: .3s;
 }
-
+.btnMas:active{
+  color: #0000002b;
+}
+.btnMenos:active{
+  color: #0000002b;
+}
 .jobs {
   position: relative;
   scroll-snap-align: center;
@@ -91,11 +149,11 @@ img {
 }
 
 .jobs-title p {
+  padding-top: 20px;
   font-size: 20px;
   color: white;
   font-weight: 700;
 }
-
 
 .jobs h6 {
   font-size: 14px;
