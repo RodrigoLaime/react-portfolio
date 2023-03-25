@@ -74,8 +74,10 @@
   /* z-index: 0; */
 }
 
-.clickMe {
+.container-button{
   z-index: 1;
+}
+.about-me, .contac-me {
   background-color: #041c24;
   border: 2px solid #2acfcf;
   padding: 10px;
@@ -95,7 +97,7 @@
   transition: .3s ease;
 }
 
-.two-btn {
+.contac-me {
   border: 2px solid white;
   color: white;
 }
@@ -114,7 +116,7 @@
     font-size: 1.1rem;
   }
 
-  .clickMe {
+  .about-me, .contac-me {
     width: 300px;
     margin-left: 20%;
     position: relative;

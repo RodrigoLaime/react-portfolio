@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Menu.css'
 import './menu-icon.css'
@@ -24,17 +24,20 @@ routes.push({
 
 const Menu = () => {
 
-
-  const handleClick = () => {
-    const navM = document.getElementById('navM');
-
-    navM.classList.toggle('desplazar')
-  }
   const click = () => {
     const menu1 = document.getElementById('menu1')
     menu1.classList.toggle('openmenu1');
   }
-  /* <nav className={scrollnav ? 'menu-nav scrNav' : 'menu-nav'}> */
+
+  const handleClick = () => {
+    const navM = document.getElementById('navM');
+    navM.classList.toggle('desplazar')
+  }
+
+  const clickRemove = () => {
+    const navM = document.getElementById('navM');
+    navM.classList.remove('desplazar')
+  }
   return (
     <div className='container-nav'>
       <nav className='menu-nav'>
@@ -51,13 +54,19 @@ const Menu = () => {
         </div>
 
         <section className='menu-desktop'>
-          <ul className='menu-ul'>
+          <ul 
+            className='menu-ul'
+          >
             {routes.map(route => (
               <div
+                
                 key={route.text}
-                className='menu-li'>
+                className='menu-li'
+                id='menu-li'
+              >
                 <NavLink
                   className='a'
+                  
                   key={routes.text}
                   style={({ isActive }) => ({
                     color: isActive ? ' #fffffaa2' : '',
@@ -78,6 +87,7 @@ const Menu = () => {
           <ul>
             {routes.map(route => (
               <div
+              onClick={clickRemove}
                 key={route.text}
                 className='menu-li-movil'>
                 <NavLink

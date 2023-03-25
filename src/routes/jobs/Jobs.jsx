@@ -37,13 +37,14 @@ const Jobs = () => {
          style={{
           color:'white',
           padding: '20px'}}>
-            <li><div><h3>JavaScript</h3><p>Lenguajes favorito de programacion</p></div><p className='p-icon'>+</p></li>
-            <li><div><h3>CSS3</h3><p>Fundamental para el front, estructura</p></div><p className='p-icon'>+</p></li>
-            <li><div><h3>HTML5</h3><p>Fundamental para el front, stylos</p></div><p className='p-icon'>+</p></li>
-            <li><div><h3>React</h3><p>Exelente herramienta y facil de aprender</p></div><p className='p-icon'>+</p></li>
+            <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i class="fa-brands fa-square-js"></i></p></li>
+            <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i class="fa-brands fa-css3-alt"></i></p></li>
+            <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i class="fa-brands fa-html5"></i></p></li>
+            <li><div><h3>React</h3><p>Crea interfaces de usuario interactivas, rápidas y dinámicas.</p></div><p className='p-icon iconReact'><i class="fa-brands fa-react"></i></p></li>
         </ul>
 
         <div className='button-container'>
+          <h2>SEE PROJECTS</h2>
           <button className='btnMas' onClick={clickLeft}><i className="fa-solid fa-angles-left"></i></button>
           <button className='btnMenos' onClick={clickRight}><i className="fa-solid fa-angles-right"></i></button>
         </div>
@@ -64,14 +65,11 @@ const Jobs = () => {
                 <a
                 className='iconSee'
                   href={data.github}
-                ><span>view project</span><i className="fa-regular fa-folder-open"></i></a>
+                ><span>see project</span><i className="fa-solid fa-up-right-from-square"></i></a>
                 <a
                   onClick={navContact}
                   href={data.github}
                 ><i className="fa-brands fa-github"></i></a>
-               {/*  <a
-                  href={data.github}
-                ><i className="fa-regular fa-images"></i></a> */}
 
               </div>
 

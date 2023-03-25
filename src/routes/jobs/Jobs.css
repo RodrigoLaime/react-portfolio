@@ -59,13 +59,13 @@ img {
 /* lista de tecnologias usadas */
 .list-tecnology {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   list-style: none;
   gap: 10px;
 }
 
 .list-tecnology li {
-  background-color: #2acfcf2d;
+ /*  background-color: #2acfcf2d; */
   padding: 10px;
   display: flex;
   justify-content: right;
@@ -95,28 +95,42 @@ img {
   align-items: center; */
   margin-left: 10px;
   padding: 10px;
-  font-size: 2rem;
-  background-color: #2acfcf;
+  font-size: 2.3rem;
+  /* background-color: #2acfcf; */
+}
+.list-tecnology li .iconJs {
+  color: #f5e400;
+}
+.list-tecnology li .iconCss {
+  color: #00b0ea;
+}
+.list-tecnology li .iconHtml {
+  color: #de3532;
+}
+.list-tecnology li .iconReact {
+  color: #2acfcf;
 }
 
 
 .button-container {
   display: flex;
-  justify-content: right;
+  align-items: center;
+  justify-content: left;
   padding: 0 20px;
   margin-top: 20px;
   gap: 10px;
+  color: white;
 }
 
 .btnMas,
 .btnMenos {
-  margin-right: 20px;
   border: none;
   background-color: #2acfcf00;
   border-radius: 50%;
   color: white;
   font-size: 1.4rem;
   transition: .3s;
+  margin-left: 10px;
 }
 
 .btnMas:active {
@@ -132,8 +146,8 @@ img {
   scroll-snap-align: center;
   /*   flex: none; */
   width: 270px;
-  background-color: #041C24;
-/*   backdrop-filter: blur(20px); */
+/*   background-color: #041C24; */
+  backdrop-filter: blur(20px);
   /* c */
   border-radius: 5px;
   text-align: left;
@@ -216,4 +230,15 @@ img {
   text-decoration: none;
   cursor: pointer;
   font-size: 18px;
+}
+
+
+
+@media (min-width: 585px){
+  .list-tecnology {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 10px;
+}
 }
