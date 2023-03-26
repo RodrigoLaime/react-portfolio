@@ -1,4 +1,122 @@
-.menu-div{
+.container-contact {
+    background-color: #041C24;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+.activeContact {
+    display: none;
+}
+
+.contact-right {
+    /*   background-color: rgb(15, 95, 95); */
+    padding: 0 30px;
+    width: 100%;
+    max-width: 480px;
+    text-align: left;
+}
+
+.contact-right h2 {
+    font-size: 2.5rem;
+    color: #2acfcf;
+}
+
+.contact-right p {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.form-contact {
+    /*  background-color: blueviolet; */
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.form-contact li {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-contact li label {
+    padding: 10px;
+}
+
+.form-contact li input {
+    padding: 10px;
+    background-color: #041C24;
+    border: 2px solid #2acfcf;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.form-contact li input:focus {
+    box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+}
+
+.form-contact li input::placeholder {
+    color: white;
+}
+
+.form-contact li textarea {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    background-color: #041C24;
+    border: 2px solid #2acfcf;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    height: auto;
+    /*   overflow: hidden;
+    resize: none;
+    height: auto; */
+}
+
+.form-contact li textarea:focus {
+    box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(42, 207, 207, 0.75);
+}
+
+.form-contact li textarea::placeholder {
+    color: white;
+}
+
+.form-contact .button-contact {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #041C24;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2acfcf;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.form-contact .button-contact:active{
+    background-color: #2acfcf80;
+}
+.follow-icon{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.follow-icon a{
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
 }
