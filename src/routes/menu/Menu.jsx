@@ -27,23 +27,31 @@ const Menu = () => {
   const click = () => {
     const menu1 = document.getElementById('menu1')
     menu1.classList.toggle('openmenu1');
-  }
 
-  const handleClick = () => {
     const navM = document.getElementById('navM');
     navM.classList.toggle('desplazar')
+
+    const menuN = document.getElementById('menu-nav')
+    menuN.classList.toggle('transparent')
   }
 
-  const clickRemove = () => {
+ /*  const handleClick = () => {
+    const navM = document.getElementById('navM');
+    navM.classList.toggle('desplazar')
+  } */
+
+  /* const clickRemove = () => {
     const navM = document.getElementById('navM');
     navM.classList.remove('desplazar')
-  }
+    const menu1 = document.getElementById('menu1')
+    menu1.classList.toggle  ('openmenu1');
+  } */
   return (
     <div className='container-nav'>
-      <nav className='menu-nav'>
+      <nav className='menu-nav' id='menu-nav'>
         <h4 className='menu-h4'> <span> PORTFOLIO</span> | RODRIGO</h4>
 
-        <div className='container-icon-menu' onClick={handleClick}>
+        <div className='container-icon-menu' /* onClick={handleClick} */>
           <div onClick={click} className='menu1' id='menu1'>
             <div>
               <span className='line1'></span>
@@ -87,7 +95,7 @@ const Menu = () => {
           <ul>
             {routes.map(route => (
               <div
-              onClick={clickRemove}
+              onClick={click}
                 key={route.text}
                 className='menu-li-movil'>
                 <NavLink

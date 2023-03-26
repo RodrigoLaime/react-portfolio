@@ -28,15 +28,11 @@ const Jobs = () => {
       <section className='container-jobs'>
         <div className='jobs-title'>
           <h2>NOTEWORTHY PROYECTS</h2>
-          {/* <p>see the files</p> */}
           <p>Tecnologia implementadas</p>
         </div>
 
         <ul
-        className='list-tecnology'
-         style={{
-          color:'white',
-          padding: '20px'}}>
+        className='list-tecnology'>
             <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i class="fa-brands fa-square-js"></i></p></li>
             <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i class="fa-brands fa-css3-alt"></i></p></li>
             <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i class="fa-brands fa-html5"></i></p></li>
@@ -69,7 +65,7 @@ const Jobs = () => {
                 <a
                   onClick={navContact}
                   href={data.github}
-                ><i className="fa-brands fa-github"></i></a>
+                ><span>repository</span><i className="fa-brands fa-github"></i></a>
 
               </div>
 

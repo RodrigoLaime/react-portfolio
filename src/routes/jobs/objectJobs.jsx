@@ -1,11 +1,3 @@
-/* 
-import logo3 from '../../assets/music.png'
-import logo3 from '../../assets/mylogo.jpg'
-import logo3 from '../../assets/portafolio1.png'
-import logo3 from '../../assets/portafolio2.png'
-import logo3 from '../../assets/stadistica_web.png'
-import logo3 from '../../assets/steps.png'
-import logo3 from '../../assets/tiktok.png' */
 /* https://www.youtube.com/watch?v=gzXyRa7jwk4 */
 import styled from "styled-components";
 
@@ -16,9 +8,18 @@ trabajos.push({
   project: 'Batata Bit',
   tools: 'Used Tools: HTML5 and CSS, desing movil and desktop',
   key: 1,
-  image: imgs('./clon-google2.png'),
+  image: imgs('./batata (1).png'),
   github: '',
   job: 'fasdfasd',
+})
+trabajos.push({
+  contact: 'Contact me',
+  project: 'google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 5,
+  github: 'ggg',
+  image: imgs('./faceboock.png'),
+  job: 'hy6',
 })
 trabajos.push({
   contact: 'Contact me',
@@ -31,30 +32,22 @@ trabajos.push({
 })
 trabajos.push({
   contact: 'Contact me',
+  project: 'google clone ligth',
+  tools: 'Used Tools: HTML5 and CSS',
+  key: 4,
+  github: 'thh',
+  image: imgs('./clon-google2.png'),
+  
+  job: 'ttt',
+})
+trabajos.push({
+  contact: 'Contact me',
   project: 'cardshoping',
   tools: 'Used Tools: HTML5 and CSS',
   key: 3,
   github: 'xcv',
   image: imgs('./cars-card.png'),
   job: 'iyl',
-})
-trabajos.push({
-  contact: 'Contact me',
-  project: 'google clone ligth',
-  tools: 'Used Tools: HTML5 and CSS',
-  key: 4,
-  github: 'thh',
-  image: imgs('./batata (1).png'),
-  job: 'ttt',
-})
-trabajos.push({
-  contact: 'Contact me',
-  project: 'google clone ligth',
-  tools: 'Used Tools: HTML5 and CSS',
-  key: 5,
-  github: 'ggg',
-  image: imgs('./faceboock.png'),
-  job: 'hy6',
 })
 trabajos.push({
   contact: 'Contact me',
