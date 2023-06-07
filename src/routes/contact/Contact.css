@@ -62,6 +62,9 @@
 .form-contact li input:focus {
     border: 2px solid white;
 }
+.form-contact li input::selection{
+  background-color: #041C24;
+}
 
 .form-contact li input::placeholder {
     color: white;
@@ -74,7 +77,7 @@
     width: 100%;
     padding: 10px;
     background-color: #041C24;
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff83;
     border-radius: 5px;
     outline: none;
     color: white;
@@ -85,7 +88,7 @@
 }
 
 .form-contact li textarea:focus {
-    border: 2px solid #2acfcf;
+    border: 2px solid #ffffff;
 }
 
 .form-contact li textarea::placeholder {

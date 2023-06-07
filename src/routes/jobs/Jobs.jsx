@@ -33,10 +33,10 @@ const Jobs = () => {
 
         <ul
         className='list-tecnology'>
-            <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i class="fa-brands fa-square-js"></i></p></li>
-            <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i class="fa-brands fa-css3-alt"></i></p></li>
-            <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i class="fa-brands fa-html5"></i></p></li>
-            <li><div><h3>React</h3><p>Crea interfaces de usuario interactivas, rápidas y dinámicas.</p></div><p className='p-icon iconReact'><i class="fa-brands fa-react"></i></p></li>
+            <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i className="fa-brands fa-square-js"></i></p></li>
+            <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i className="fa-brands fa-css3-alt"></i></p></li>
+            <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i className="fa-brands fa-html5"></i></p></li>
+            <li><div><h3>React</h3><p>Crea interfaces de usuario interactivas, rápidas y dinámicas.</p></div><p className='p-icon iconReact'><i className="fa-brands fa-react"></i></p></li>
         </ul>
 
         <div className='button-container'>
