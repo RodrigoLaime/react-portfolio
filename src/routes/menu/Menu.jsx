@@ -51,7 +51,7 @@ const Menu = () => {
       <nav className='menu-nav' id='menu-nav'>
         <h4 className='menu-h4'> <span> PORTFOLIO</span> | RODRIGO</h4>
 
-        <div className='container-icon-menu' /* onClick={handleClick} */>
+        <div className='container-icon-menu'/* onClick={handleClick} */>
           <div onClick={click} className='menu1' id='menu1'>
             <div>
               <span className='line1'></span>

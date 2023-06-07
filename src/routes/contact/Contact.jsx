@@ -4,21 +4,21 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div className='container-contact'>
-      <section className='activeContact'></section>
+      <section className='activeContact 675px'></section>
       <section className='contact-right'>
         <h2>Welcome!</h2>
         <p>send us a message</p>
         <form action="" className='form-contact'>
           <li>
-            <label htmlFor="nombre">Name:</label>
+            {/* <label htmlFor="nombre">Name:</label> */}
             <input type="text" name='nombre' id='nombre' placeholder='Nombre'/>
           </li>
           <li>
-            <label htmlFor="email">Email:</label>
+            {/* <label htmlFor="email">Email:</label> */}
             <input type="email" name='email' id='email'placeholder='Email'/>
           </li>
           <li>
-            <label htmlFor="mensaje">Mensaje:</label>
+            {/* <label htmlFor="mensaje">Mensaje:</label> */}
             <textarea name="mensaje" id="mensaje" placeholder='Mensaje'/* cols="30" rows="1" */></textarea>
           </li>
           <button type='submit' className='button-contact'>Enviar</button>
