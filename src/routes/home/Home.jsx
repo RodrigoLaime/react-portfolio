@@ -54,10 +54,3 @@ const Home = () => {
   )
 }
 export { Home }
-{/*  <NavLink>
-        <button className='clickMe two-btn'>
-          CONTAC ME
-          <i className="fa-solid fa-arrow-right"></i>
-
-        </button>
-        </NavLink> */}

@@ -1,5 +1,4 @@
 /* https://www.youtube.com/watch?v=gzXyRa7jwk4 */
-import styled from "styled-components";
 
 const imgs = require.context('../../assets', true)
 export const trabajos = [];

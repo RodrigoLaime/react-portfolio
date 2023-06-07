@@ -32,12 +32,37 @@ const Jobs = () => {
         </div>
 
         <ul
-        className='list-tecnology'>
-            <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i className="fa-brands fa-square-js"></i></p></li>
-            <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i className="fa-brands fa-css3-alt"></i></p></li>
-            <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i className="fa-brands fa-html5"></i></p></li>
-            <li><div><h3>React</h3><p>Crea interfaces de usuario interactivas, rápidas y dinámicas.</p></div><p className='p-icon iconReact'><i className="fa-brands fa-react"></i></p></li>
+          className='list-tecnology'>
+          <li><div><h3>JavaScript</h3><p>Lenguaje de programacion para el desarrollo de páginas web interactivas.</p></div><p className='p-icon iconJs'><i className="fa-brands fa-square-js"></i></p></li>
+          <li><div><h3>CSS3</h3><p>Lenguaje de diseño gráfico para definir y crear la presentación de paginas web</p></div><p className='p-icon iconCss'><i className="fa-brands fa-css3-alt"></i></p></li>
+          <li><div><h3>HTML5</h3><p>Lenguaje de marcado para la elaboración de páginas web.</p></div><p className='p-icon iconHtml'><i className="fa-brands fa-html5"></i></p></li>
+          <li><div><h3>React</h3><p>Crea interfaces de usuario interactivas, rápidas y dinámicas.</p></div><p className='p-icon iconReact'><i className="fa-brands fa-react"></i></p></li>
         </ul>
+
+        <div>
+          <article>
+            <div>
+              <p>Project 01</p>
+              <h3>Batatabyte</h3>
+              <a
+                className='iconSee'
+                href='/'>
+                <span>see project</span>
+                <i className="fa-solid fa-up-right-from-square">
+                </i></a>
+              <a
+                onClick={navContact}
+                href='/'>
+                <span>repository</span>
+                <i className="fa-brands fa-github">
+                </i>
+              </a>
+
+            </div>
+            <p>description</p>
+            <p>...</p>
+          </article>
+        </div>
 
         <div className='button-container'>
           <h2>SEE PROJECTS</h2>
@@ -59,7 +84,7 @@ const Jobs = () => {
 
               <div>
                 <a
-                className='iconSee'
+                  className='iconSee'
                   href={data.github}
                 ><span>see project</span><i className="fa-solid fa-up-right-from-square"></i></a>
                 <a
